@@ -43654,7 +43654,7 @@ var MusicComponent = (function () {
         __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["F" /* Component */])({
             selector: 'app-music',
             template: __webpack_require__(703),
-            styles: [__webpack_require__(692)],
+            styles: [__webpack_require__(694)],
             animations: [
                 __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_25" /* trigger */])('routeAnimation', [
                     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_26" /* state */])('*', __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_27" /* style */])({
@@ -43709,7 +43709,7 @@ var PageNotFoundComponent = (function () {
         __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["F" /* Component */])({
             selector: 'app-page-not-found',
             template: __webpack_require__(704),
-            styles: [__webpack_require__(693)]
+            styles: [__webpack_require__(695)]
         }), 
         __metadata('design:paramtypes', [])
     ], PageNotFoundComponent);
@@ -43797,7 +43797,7 @@ var WebdevComponent = (function () {
         __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["F" /* Component */])({
             selector: 'app-webdev',
             template: __webpack_require__(709),
-            styles: [__webpack_require__(691)],
+            styles: [__webpack_require__(693)],
             providers: [__WEBPACK_IMPORTED_MODULE_3__project_project_service__["a" /* ProjectService */]],
             animations: [
                 __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_25" /* trigger */])('routeAnimation', [
@@ -59340,7 +59340,7 @@ var FooterComponent = (function () {
         __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["F" /* Component */])({
             selector: 'app-footer',
             template: __webpack_require__(705),
-            styles: [__webpack_require__(694)]
+            styles: [__webpack_require__(690)]
         }), 
         __metadata('design:paramtypes', [])
     ], FooterComponent);
@@ -59406,7 +59406,7 @@ var NavComponent = (function () {
         __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["F" /* Component */])({
             selector: 'app-nav',
             template: __webpack_require__(706),
-            styles: [__webpack_require__(695)]
+            styles: [__webpack_require__(696)]
         }), 
         __metadata('design:paramtypes', [(typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_angularfire2__["a" /* AngularFire */] !== 'undefined' && __WEBPACK_IMPORTED_MODULE_1_angularfire2__["a" /* AngularFire */]) === 'function' && _a) || Object, (typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_2__angular_router__["b" /* Router */] !== 'undefined' && __WEBPACK_IMPORTED_MODULE_2__angular_router__["b" /* Router */]) === 'function' && _b) || Object])
     ], NavComponent);
@@ -59561,7 +59561,7 @@ var ProjectDetailComponent = (function () {
         __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["F" /* Component */])({
             selector: 'app-project-detail',
             template: __webpack_require__(707),
-            styles: [__webpack_require__(690)]
+            styles: [__webpack_require__(691)]
         }), 
         __metadata('design:paramtypes', [])
     ], ProjectDetailComponent);
@@ -59677,7 +59677,7 @@ var SkillsComponent = (function () {
         __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["F" /* Component */])({
             selector: 'app-skills',
             template: __webpack_require__(708),
-            styles: [__webpack_require__(696)]
+            styles: [__webpack_require__(692)]
         }), 
         __metadata('design:paramtypes', [])
     ], SkillsComponent);
@@ -63355,7 +63355,7 @@ module.exports = "router-outlet {\n  background: url(\"./assets/img/homebg.jpeg\
 /* 687 */
 /***/ function(module, exports) {
 
-module.exports = ".cooking {\n  position: absolute;\n  color: whitesmoke;\n  top: 7vh;\n  padding: 20px;\n  background-color: rgba(0, 0, 0, 0.7);\n  width: 100%; }\n\n.skills {\n  padding: 0; }\n\n.meal-list {\n  color: whitesmoke;\n  background-color: rgba(0, 0, 0, 0.7);\n  list-style: none;\n  padding-bottom: 10px; }\n  .meal-list form {\n    margin-left: -10px;\n    padding-top: 15px;\n    padding-bottom: 15px; }\n  .meal-list li:hover {\n    color: yellow; }\n"
+module.exports = ".cooking {\n  position: absolute;\n  color: whitesmoke;\n  top: 7vh;\n  padding: 20px;\n  background-color: rgba(0, 0, 0, 0.7);\n  width: 100%; }\n\n.skills {\n  padding: 0; }\n\n.meal-list {\n  color: whitesmoke;\n  background-color: rgba(0, 0, 0, 0.7);\n  list-style: none;\n  padding-bottom: 10px;\n  margin-bottom: 0; }\n  .meal-list li:hover {\n    color: yellow; }\n\nform {\n  position: relative;\n  background-color: rgba(0, 0, 0, 0.7);\n  padding: 10px; }\n  form input {\n    width: 100%; }\n  form button {\n    position: absolute;\n    width: 20%;\n    padding: 0px;\n    margin-top: 45px;\n    margin-left: -20%; }\n"
 
 /***/ },
 /* 688 */
@@ -63373,43 +63373,43 @@ module.exports = ".content {\n  /*background-position: center;\r\n  background-s
 /* 690 */
 /***/ function(module, exports) {
 
-module.exports = ".row {\n  color: whitesmoke; }\n\n.image {\n  float: center;\n  max-height: 40vh; }\n\n.carousel {\n  background-color: none; }\n\n.project-detail {\n  padding: 15px; }\n\n.details {\n  background-color: rgba(0, 0, 0, 0.6); }\n  .details .tech span > img {\n    height: 3em; }\n"
+module.exports = ".footer {\n  position: relative;\n  width: 100%;\n  height: 70px;\n  background-color: rgba(0, 0, 0, 0.5); }\n  .footer p {\n    color: whitesmoke;\n    text-align: center; }\n"
 
 /***/ },
 /* 691 */
 /***/ function(module, exports) {
 
-module.exports = ".img-thumbnail {\n  background-color: rgba(0, 0, 0, 0.2);\n  border-color: rgba(0, 0, 0, 0.2); }\n\n.selected {\n  background-color: yellow !important; }\n\n.projects h1 {\n  color: whitesmoke;\n  text-shadow: 2px 3px black; }\n"
+module.exports = ".row {\n  color: whitesmoke; }\n\n.image {\n  float: center;\n  max-height: 40vh; }\n\n.carousel {\n  background-color: none; }\n\n.project-detail {\n  padding: 15px; }\n\n.details {\n  background-color: rgba(0, 0, 0, 0.6); }\n  .details .tech span > img {\n    height: 3em; }\n\n.info {\n  padding-bottom: 30px; }\n"
 
 /***/ },
 /* 692 */
 /***/ function(module, exports) {
 
-module.exports = "\r\n.music {\r\n    position: absolute;\r\n    color: whitesmoke;\r\n    top: 7vh;\r\n    padding: 20px;\r\n    background-color: rgba(0,0,0,0.7);\r\n    width: 100%;\r\n}\r\n.skills {\r\n    padding: 0;\r\n}"
+module.exports = ".row {\n  margin: 0px;\n  padding: 0px; }\n\n.web {\n  background-image: url(\"../assets/img/coding.jpg\");\n  background-size: 100% auto;\n  background-position: 50% 50%;\n  height: 25vh; }\n  .web h1 {\n    position: relative;\n    top: 10vh;\n    padding: 20px;\n    color: whitesmoke;\n    background-color: rgba(0, 0, 0, 0.7);\n    width: 100%; }\n\n.skills {\n  color: whitesmoke;\n  padding: 15px; }\n\nul {\n  padding-left: 10px; }\n"
 
 /***/ },
 /* 693 */
 /***/ function(module, exports) {
 
-module.exports = ".content {\r\n    height: 100vh;\r\n    margin: 0 auto;\r\n    background: url('./assets/img/404NotFound.jpg')no-repeat center center fixed; \r\n    -webkit-background-size: cover;\r\n    -moz-background-size: cover;\r\n    -o-background-size: cover;\r\n    background-size: cover;\r\n    }\r\nimg {\r\n  margin: 0 auto;\r\n}\r\n"
+module.exports = ".container-fluid {\n  margin: 0px; }\n\n.img-thumbnail {\n  background-color: rgba(0, 0, 0, 0.2);\n  border-color: rgba(0, 0, 0, 0.2); }\n\n.selected {\n  background-color: yellow !important; }\n\n.web {\n  margin-top: 0px;\n  padding: 0px;\n  background-color: rgba(0, 0, 0, 0.5); }\n\n.projects h1 {\n  color: whitesmoke;\n  text-shadow: 2px 3px black; }\n"
 
 /***/ },
 /* 694 */
 /***/ function(module, exports) {
 
-module.exports = ""
+module.exports = "\r\n.music {\r\n    position: absolute;\r\n    color: whitesmoke;\r\n    top: 7vh;\r\n    padding: 20px;\r\n    background-color: rgba(0,0,0,0.7);\r\n    width: 100%;\r\n}\r\n.skills {\r\n    padding: 0;\r\n}"
 
 /***/ },
 /* 695 */
 /***/ function(module, exports) {
 
-module.exports = "nav {\r\n    background-color:rgba(0,0,0,0.75) !important;\r\n}"
+module.exports = ".content {\r\n    height: 100vh;\r\n    margin: 0 auto;\r\n    background: url('./assets/img/404NotFound.jpg')no-repeat center center fixed; \r\n    -webkit-background-size: cover;\r\n    -moz-background-size: cover;\r\n    -o-background-size: cover;\r\n    background-size: cover;\r\n    }\r\nimg {\r\n  margin: 0 auto;\r\n}\r\n"
 
 /***/ },
 /* 696 */
 /***/ function(module, exports) {
 
-module.exports = ".row {\r\n    background-color: rgba(0,0,0,0.5);\r\n}\r\n.skills {\r\n    color: whitesmoke;\r\n    padding: 15px;\r\n}\r\nul {\r\n    padding-left: 10px;\r\n}\r\n.web {\r\n    position: absolute;\r\n    color: whitesmoke;\r\n    top: 7vh;\r\n    padding: 20px;\r\n    background-color: rgba(0,0,0,0.7);\r\n    width: 100%;\r\n}"
+module.exports = "nav {\r\n    background-color:rgba(0,0,0,0.75) !important;\r\n}"
 
 /***/ },
 /* 697 */,
@@ -63428,7 +63428,7 @@ module.exports = "<!--<app-nav></app-nav>-->\r\n\r\n<router-outlet></router-outl
 /* 700 */
 /***/ function(module, exports) {
 
-module.exports = "<app-nav></app-nav>\r\n<div class=\"container-fluid\">\r\n\t<div class=\"col-lg-3 col-sm-5 skills\">\r\n\t\t<img class=\"img-circle img-fluid\" src=\"../assets/img/cooking.jpg\" alt=\"\">\r\n\t\t<h1 class=\"cooking\">Gotowanie</h1>\r\n\t\t\r\n\t\t<ul class=\"meal-list\">\r\n\t\t\t<form class=\"form-inline\">\r\n\t\t\t\t<input class=\"form-control\" type=\"text\" placeholder=\"Szukaj\">\r\n\t\t\t\t<button class=\"btn btn-outline-success\" type=\"submit\">Szukaj</button>\r\n\t\t\t</form>\r\n\t\t\t<li *ngFor=\"let meal of meals\">\r\n\t\t\t\t<p [class.selected]=\"meal === selectedMeal\" (click)=\"onSelect(meal)\">\r\n\t\t\t\t\t{{ meal.name }}\r\n\t\t\t\t</p>\r\n\t\t\t</li>\r\n\t\t</ul>\r\n\t</div>\r\n\t<div class=\"col-lg-9 col-sm-7\">\r\n\t\t<app-meal [meal]=\"selectedMeal\"></app-meal>\r\n\t</div>\r\n</div>\r\n<app-footer></app-footer>"
+module.exports = "<app-nav></app-nav>\r\n<div class=\"container-fluid\">\r\n\t<div class=\"col-lg-3 col-sm-5 skills\">\r\n\t\t<img class=\"img-fluid\" src=\"../assets/img/cooking.jpg\" alt=\"\">\r\n\t\t<h1 class=\"cooking\">Gotowanie</h1>\r\n\t\t<form class=\"form-inline\">\r\n\t\t\t<input class=\"form-control\" type=\"text\" placeholder=\"Szukaj\">\r\n\t\t\t<button class=\"btn btn-outline-success\" type=\"submit\">\r\n\t\t\t\t<img class=\"img-fluid\" src=\"../assets/img/icons/lupa.png\" alt=\"lupa\">\r\n\t\t\t</button>\r\n\t\t</form>\r\n\t\t<ul class=\"meal-list\">\r\n\t\t\t<li *ngFor=\"let meal of meals\">\r\n\t\t\t\t<p [class.selected]=\"meal === selectedMeal\" (click)=\"onSelect(meal)\">\r\n\t\t\t\t\t{{ meal.name }}\r\n\t\t\t\t</p>\r\n\t\t\t</li>\r\n\t\t</ul>\r\n\t</div>\r\n\t<div class=\"col-lg-9 col-sm-7\">\r\n\t\t<app-meal [meal]=\"selectedMeal\"></app-meal>\r\n\t</div>\r\n</div>\r\n<app-footer></app-footer>"
 
 /***/ },
 /* 701 */
@@ -63458,7 +63458,7 @@ module.exports = "<div class=\"content\"></div>\r\n<p>\r\n  <img class=\"img-flu
 /* 705 */
 /***/ function(module, exports) {
 
-module.exports = "<p>\r\n  footer works!\r\n</p>\r\n"
+module.exports = "<div class=\"container-fluid footer\">\r\n  <br>     \r\n  <p>\r\n    Angular-CLI App © Copyright Michał Niemiec\r\n  </p>\r\n</div>\r\n\r\n"
 
 /***/ },
 /* 706 */
@@ -63476,13 +63476,13 @@ module.exports = "<div class=\"row project-detail\" id=\"{{ project.id }}\" *ngI
 /* 708 */
 /***/ function(module, exports) {
 
-module.exports = "<div class=\"row\">\r\n\t<img class=\"img-fluid\" src=\"../assets/img/coding.jpg\" alt=\"coding\">\r\n\t<h1 class=\"web\">Web development</h1>\r\n</div>\r\n<div class=\"row skills\">\r\n\t<strong>Opanowane technologie WEB:</strong>\r\n\t<ul>\r\n\t\t<li>HTML 5\r\n\t\t\t<progress class=\"progress progress-success\" value=\"99\" max=\"100\"></progress>\r\n\t\t</li>\r\n\t\t<li>CSS 3\r\n\t\t\t<progress class=\"progress progress-success\" value=\"72\" max=\"100\"></progress>\r\n\t\t</li>\r\n    <li>BOOTSTRAP 3\r\n      <progress class=\"progress progress-info\" value=\"80\" max=\"100\"></progress>\r\n\t\t</li>\r\n\t\t<li>XML\r\n      <progress class=\"progress progress-danger\" value=\"90\" max=\"100\"></progress>\r\n\t\t</li>\r\n    <li>PHP\r\n      <progress class=\"progress progress-warning\" value=\"66\" max=\"100\"></progress>\r\n\t\t</li>\r\n\t\t<li>C#/MVC.NET\r\n      <progress class=\"progress progress-info\" value=\"35\" max=\"100\"></progress>\r\n\t\t</li>\r\n\t\t<li>SQL\r\n      <progress class=\"progress progress-danger\" value=\"70\" max=\"100\"></progress>\r\n\t\t</li>\r\n    <li>JQUERY\r\n\t\t\t<progress class=\"progress progress-warning\" value=\"50\" max=\"100\"></progress>\r\n\t\t</li>\r\n\t\t<li>ANGULAR2\r\n      <progress class=\"progress progress-info\" value=\"40\" max=\"100\"></progress>\r\n\t\t</li>\r\n\t</ul>\r\n</div>"
+module.exports = "<div class=\"row web\">\r\n\t<h1>Web development</h1>\r\n</div>\r\n<div class=\"row skills\">\r\n\t<strong>Opanowane technologie WEB:</strong>\r\n\t<ul>\r\n\t\t<li>HTML 5\r\n\t\t\t<progress class=\"progress progress-success\" value=\"99\" max=\"100\"></progress>\r\n\t\t</li>\r\n\t\t<li>CSS 3\r\n\t\t\t<progress class=\"progress progress-success\" value=\"72\" max=\"100\"></progress>\r\n\t\t</li>\r\n    <li>BOOTSTRAP 3\r\n      <progress class=\"progress progress-info\" value=\"80\" max=\"100\"></progress>\r\n\t\t</li>\r\n\t\t<li>XML\r\n      <progress class=\"progress progress-danger\" value=\"90\" max=\"100\"></progress>\r\n\t\t</li>\r\n    <li>PHP\r\n      <progress class=\"progress progress-warning\" value=\"66\" max=\"100\"></progress>\r\n\t\t</li>\r\n\t\t<li>C#/MVC.NET\r\n      <progress class=\"progress progress-info\" value=\"35\" max=\"100\"></progress>\r\n\t\t</li>\r\n\t\t<li>SQL\r\n      <progress class=\"progress progress-danger\" value=\"70\" max=\"100\"></progress>\r\n\t\t</li>\r\n    <li>JQUERY\r\n\t\t\t<progress class=\"progress progress-warning\" value=\"50\" max=\"100\"></progress>\r\n\t\t</li>\r\n\t\t<li>ANGULAR2\r\n      <progress class=\"progress progress-info\" value=\"40\" max=\"100\"></progress>\r\n\t\t</li>\r\n\t</ul>\r\n</div>"
 
 /***/ },
 /* 709 */
 /***/ function(module, exports) {
 
-module.exports = "<app-nav></app-nav>\r\n<div class=\"container-fluid\">\r\n\t<div class=\"col-lg-3 col-sm-5\">\r\n\t\t<app-skills></app-skills>\r\n\t</div>\r\n\t<div class=\"col-lg-9 col-sm-7 projects\">\r\n\t\t<h1>Wybierz projekt:</h1>\r\n\t\t<div class=\"row \">\r\n\t\t\t<div class=\"col-md-3\" *ngFor=\"let project of projects\">\r\n\t\t\t\t<img class=\"img-fluid img-thumbnail\" \r\n\t\t\t\t\t[class.selected]=\"project === selectedProject\" \r\n\t\t\t\t\t(click)=\"onSelect(project)\" \r\n\t\t\t\t\tsrc=\"{{ project.path + project.imgs[0] }}\" alt=\"{{ project.imgs[0] }}\">\r\n\t\t\t</div>\r\n\t\t</div>\r\n\t\t<app-project-detail [project]=\"selectedProject\"></app-project-detail>\r\n\t</div>\r\n</div>\r\n<app-footer></app-footer>"
+module.exports = "<app-nav></app-nav>\r\n<div class=\"container-fluid\">\r\n\t<div class=\"col-lg-3 col-sm-5 web\">\r\n\t\t<app-skills></app-skills>\r\n\t</div>\r\n\t<div class=\"col-lg-9 col-sm-7 projects\">\r\n\t\t<h1>Wybierz projekt:</h1>\r\n\t\t<div class=\"row \">\r\n\t\t\t<div class=\"col-md-3\" *ngFor=\"let project of projects\">\r\n\t\t\t\t<img class=\"img-fluid img-thumbnail\" \r\n\t\t\t\t\t[class.selected]=\"project === selectedProject\" \r\n\t\t\t\t\t(click)=\"onSelect(project)\" \r\n\t\t\t\t\tsrc=\"{{ project.path + project.imgs[0] }}\" alt=\"{{ project.imgs[0] }}\">\r\n\t\t\t</div>\r\n\t\t</div>\r\n\t\t<app-project-detail [project]=\"selectedProject\"></app-project-detail>\r\n\t</div>\r\n</div>\r\n<app-footer></app-footer>"
 
 /***/ },
 /* 710 */
