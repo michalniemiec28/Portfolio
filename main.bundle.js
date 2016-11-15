@@ -63460,7 +63460,7 @@ module.exports = "<div class=\"content\"></div>\r\n<p>\r\n  <img class=\"img-flu
 /* 705 */
 /***/ function(module, exports) {
 
-module.exports = "<div class=\"container-fluid footer\">\r\n  <br>     \r\n  <p>\r\n    Angular-CLI App © Copyright Michał Niemiec\r\n  </p>\r\n</div>\r\n\r\n"
+module.exports = "<div class=\"container-fluid footer\">\r\n  <br>     \r\n  <p>\r\n    Angular-CLI & Bootstrap-4-alpha App © Michał Niemiec\r\n  </p>\r\n</div>\r\n\r\n"
 
 /***/ },
 /* 706 */
